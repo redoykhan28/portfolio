@@ -1,0 +1,532 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+.container{
+
+  animation: transitionIN 0.75s;
+}
+
+@keyframes transitionIN {
+
+  from{
+
+      opacity: 0;
+      transform: rotateX(-10deg);
+  }
+
+  to{
+
+      
+      opacity: 1;
+      transform: rotateX(0);
+  }
+
+}
+
+.hd:hover{
+ color: #CF6369;
+}
+
+.nvm{
+  width: 100%;
+  background-color: #FCFBFF;
+  font-family: 'Lato', sans-serif;
+  position: fixed;
+  z-index: 9999;
+  
+}
+
+.nv1{
+
+  position: relative;
+  color:black;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+
+.nv1:after{
+  content: "";
+  position: absolute;
+  background-color: #CF6369;
+  height: 1px;
+  width: 0;
+  left: 0;
+  bottom: -0.10px;
+  transition: 0.3s;
+}
+
+.nv1:hover:after{
+
+  width: 100%;
+
+}
+
+.nv1:focus:after{
+
+  width: 100%;
+
+}
+
+.nv1:hover{
+
+  color: #CF6369;
+}
+
+.nv1:focus{
+
+  color: #CF6369;
+}
+
+.texted h4 span:before{
+  content: '';
+  animation: animate infinite 8s;
+
+}
+
+@keyframes animate {
+  
+  0%{
+    content: 'Sezan Ahmed';
+  }
+   
+  45%{
+    content: 'a Designer';
+  }
+   
+  60%{
+    content: 'a Developer';
+  }
+   
+  75%{
+    content: 'a Photographer';
+  }
+   
+  100%{
+    content: 'a Tech Lover';
+  }
+
+}
+
+.txtm{
+  color: #CF6369;
+}
+
+
+
+.list_style{
+
+  list-style: none;
+  color: #CF6369;
+  margin-top: 300px;
+  font-size: 20px;
+  margin-left: 10px;
+  animation: slidea 1.2s ease;
+}
+@keyframes slidea{
+
+
+  0%{
+      transform: translateY(40px);
+  }
+
+  100%{
+      transform: translateY(0);
+  
+  }
+}
+
+.anm2{
+  animation: slidea2 1.2s ease;
+
+}
+
+@keyframes slidea2{
+
+
+  0%{
+      transform: translateY(40px);
+  }
+
+  100%{
+      transform: translateY(0);
+  
+  }
+}
+
+.anm{
+  animation: slide .8s ease-out;
+
+}
+
+@keyframes slide{
+
+
+  0%{
+      transform: skewX(53deg) translateX(-500px);
+      opacity: 0;
+  }
+  60%{
+      transform:  translateX(0px);
+     
+  }
+  62%{
+      transform: skewX(0deg) translateX(30px);
+      opacity: 0;
+  }
+  70%{
+      transform: skewX(-20deg);
+      opacity: 1;
+  }
+  80%{
+      transform: skewX(0deg) translateX(0px);
+     
+  }
+  90%{
+      transform: skewX(-5deg);
+      
+  }
+
+
+  100%{
+      transform: skewX(0);
+  
+  }
+}
+
+ .sl1{
+  color: #CF6369;
+
+ }
+
+ .sl1:hover{
+  color: gray;
+  animation: slidea3 3s ease;
+
+ }
+
+ @keyframes slidea3{
+
+
+  0%{
+      transform: translateY(2px);
+  }
+
+  100%{
+      transform: translateY(1px);
+  
+  }
+}
+
+ .texted{
+
+  margin-top: 250px;
+  text-align: justify;
+  margin-left: 10px;
+
+ }
+
+ .bt1{
+color: white;
+ font-weight: bold; 
+ background-color: #CF6369;
+  padding: 20px;
+ }
+ 
+ .bt1:hover{
+  
+ background-color: gray;
+  
+ }
+
+ .img1{
+
+  width: 300px;
+  height: 300px;
+  margin-top: 250px;
+  margin-left: 40px;
+  border-radius:21% 79% 58% 42% / 22% 41% 59% 78%   ;
+  border: 1px solid transparent ;
+ }
+
+ .sp{
+
+  color: #CF6369;
+
+ }
+
+
+.sm{
+
+  text-decoration: none;
+  display: block;
+  margin-top: 100px;
+
+}
+
+.sp:hover{
+  color: gray;
+}
+.r1{
+
+  margin-top: 200px;
+
+}
+.img2{
+
+  width: 400px;
+  height: 300px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  margin-top: 90px;
+ 
+
+}
+.t1{
+
+  margin-top: 90px;
+  margin-left: 20px;
+  
+}
+
+.t2{
+
+  margin-left: 20px;
+
+}
+ 
+.bt2{
+    color: white;
+    font-weight: bold; 
+    background-color: #CF6369;
+    padding: 20px;
+    margin-left: 100px;
+    width: 200px;
+    border-radius: 10px;
+   }
+   
+   .bt2:hover{
+    
+   background-color: gray;
+    
+   }
+   .sk1{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+   }
+
+  .txt2{
+    margin-top: 90px;
+    margin-left: 20px;
+
+
+  }
+
+  .pr{
+
+    height: 5px;
+  }
+
+ .cl{
+   background-color:#CF6369 ;
+ }
+  
+ .ed1{
+  margin-top: 90px;
+  
+
+
+}
+
+.cardm{
+
+  background-color: #CF6369;
+  margin-top: 90px;
+  height: 230px;
+  border: 1px solid #CF6369;
+  text-decoration: none;
+  box-shadow: 1px 1px 2px 0px gray;
+  margin-left: 40px;
+}
+
+.cardm:hover{
+
+  border: 1px solid #DFDFDF;
+  box-shadow: 2px 2px 10px 0px gray;
+  
+}
+
+.btt{
+
+  background-color: #CF6369 ;
+  color: white;
+  border-radius: 20px;
+
+}
+
+.card1{
+  width: 20rem;
+  height: 180px;
+  background-color: white;
+  box-shadow: 1px 1px 2px 0px gray;
+  margin-left: 40px;
+
+ }
+
+ .sl2{
+  color: white;
+
+ }
+
+ .btc{
+
+  color: #CF6369;
+ margin-right: 100px;
+ margin-top: 100px;
+ }
+
+ .vst{
+
+  color: #CF6369;
+  margin-left: 30px;
+
+ }
+
+ .list_style2{
+
+  list-style: none;
+  color: #CF6369;
+  margin-top: 90px;
+  font-size: 20px;
+  margin-left: 10px;
+
+ }
+
+ .tx1{
+
+  width: 350px;
+  border-radius: 10px;
+  outline: none;
+  transition: .30s;
+  border: 1px solid transparent;
+  background-color: #EFEFFE;
+  
+}
+.tx1:focus{
+
+  width: 370px;
+   border-color:gray;
+  
+  }
+
+  .tx2{
+
+    width: 350px;
+    border-radius: 10px;
+    outline: none;
+    transition: .30s;
+    border: 1px solid transparent;
+    background-color: #EFEFFE;
+
+    
+}
+.tx2:focus{
+
+    width: 370px;
+    border-color:gray;
+    
+    }
+
+.co3{
+
+  margin-left: 100px;
+}
+
+.bt2{
+  color: white;
+   font-weight: bold; 
+   background-color: #CF6369;
+    padding: 18px;
+    margin-left: 20px;
+    
+   }
+   
+   .bt2:hover{
+    
+   background-color: gray;
+    
+   }
+
+   .r1f{
+
+    background-color:#CF6369 ;
+}
+
+
+.nvf{
+
+
+  color:white;
+  text-decoration: none;
+  margin-top:10px;
+  padding: 0 10px;
+  text-align: justify;
+  margin-left: 10px;
+}
+
+.nvf:hover{
+  color: black;
+}
+
+.list_style3{
+  list-style: none;
+  color: #CF6369;
+  font-size: 20px;
+ 
+
+ }
+ .sl2:hover{
+
+  color: black;
+  animation: slidea3 3s ease;
+
+ }
+
+
+
+ .sm2{
+
+  text-decoration: none;
+
+ 
+
+}
+
+.bt3{
+  color: white;
+  font-weight: bold; 
+  background-color: #CF6369;
+  padding: 20px;
+  margin-left: 100px;
+  width: 200px;
+  border-radius: 10px;
+ }
+ 
+ .bt3:hover{
+  
+ background-color: gray;
+  color: white;
+ }
+
+
